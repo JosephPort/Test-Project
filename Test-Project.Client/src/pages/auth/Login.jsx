@@ -2,27 +2,33 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+function postLoginData(username, password, setError, navigate) {
+  axios.post('https://localhost:7187/api/auth/login', {
+    username,
+    password
+  }, {
+    withCredentials: true
+  })
+  .then(() => {
+    console.log('User logged in');
+    navigate('/');
+  })
+  .catch((error) => {
+    setError(error.response.data);
+  });
+}
+
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+
+  const [error, setError] = useState(null);
 
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    axios.post('https://localhost:7187/api/auth/login', {
-      username,
-      password
-    })
-    .then(() => {
-      navigate('/');
-      console.log('User logged in');
-    })
-    .catch((error) => {
-      setError(error.response.data);
-    });
+    postLoginData(username, password, setError, navigate);
   };
 
   return (
