@@ -18,6 +18,19 @@ namespace Test_Project.Server.API.Controllers
             _context = context;
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginDTO request)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == request.Username);
+
+            if (user is null || !BCrypt.Net.BCrypt.Verify(request.Password, user.Password))
+            {
+                return BadRequest("Invalid username or password.");
+            }
+
+            return Ok();
+        }
+
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDTO request)
         {
