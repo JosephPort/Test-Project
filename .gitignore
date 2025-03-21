@@ -1,0 +1,14 @@
+# Ignore files and directories in the client
+Test-Project.Client/node_modules
+Test-Project.Client/*/.pnp
+Test-Project.Client/.pnp.js
+
+Test-Project.Client/.DS_Store
+Test-Project.Client/.env.local
+Test-Project.Client/.env.development.local
+Test-Project.Client/.env.test.local
+Test-Project.Client/.env.production.local
+
+Test-Project.Client/npm-debug.log*
+Test-Project.Client/yarn-debug.log*
+Test-Project.Client/yarn-error.log*
