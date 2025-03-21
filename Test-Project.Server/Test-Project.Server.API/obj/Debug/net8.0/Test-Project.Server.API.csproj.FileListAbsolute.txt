@@ -6,6 +6,7 @@
 /Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.API/bin/Debug/net8.0/Test-Project.Server.API.pdb
 /Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.API/bin/Debug/net8.0/Azure.Core.dll
 /Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.API/bin/Debug/net8.0/Azure.Identity.dll
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.API/bin/Debug/net8.0/BCrypt.Net-Next.dll
 /Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.API/bin/Debug/net8.0/Humanizer.dll
 /Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.API/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.API/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
