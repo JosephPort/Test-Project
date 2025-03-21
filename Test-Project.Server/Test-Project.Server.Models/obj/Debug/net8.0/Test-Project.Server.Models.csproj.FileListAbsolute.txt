@@ -1,0 +1,12 @@
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/bin/Debug/net8.0/Test-Project.Server.Models.deps.json
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/bin/Debug/net8.0/Test-Project.Server.Models.dll
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/bin/Debug/net8.0/Test-Project.Server.Models.pdb
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/Test-Project.Server.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/Test-Project.Server.Models.AssemblyInfoInputs.cache
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/Test-Project.Server.Models.AssemblyInfo.cs
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/Test-Project.Server.Models.csproj.CoreCompileInputs.cache
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/Test-Project.Server.Models.sourcelink.json
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/Test-Project.Server.Models.dll
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/refint/Test-Project.Server.Models.dll
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/Test-Project.Server.Models.pdb
+/Users/porter/Software/React/Test-Project/Test-Project.Server/Test-Project.Server.Models/obj/Debug/net8.0/ref/Test-Project.Server.Models.dll
